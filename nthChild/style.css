@@ -1,0 +1,28 @@
+div:nth-child(2){
+    color:green;
+}
+
+div:nth-child(1){ outline: 1px solid #2ecc71; }    /* first child */
+div:nth-child(odd){ background: #dd1212; }         /* 1,3,5,... */
+div:nth-child(even){ background: #efefef; }        /* 2,4,6,... */
+
+/* formulas  3 is stepper size and n is non negativee no.*/
+li:nth-child(3n){ color: #0b66ff; }                /* 3,6,9,... */
+li:nth-child(3n+1){ color: #aed273; }              /* 1,4,7,... */
+li:nth-child(3n+2){ color: #110805; }              /* 2,5,8,... */
+
+/* ranges / offsets */
+p:nth-child(-n+3){ font-weight: bold; }            /* first 3 children */
+p:nth-child(n+4){ color: #e14816; }                  /* 4th onward */
+
+/* counting from the end */
+li:nth-last-child(1){ border-bottom: 2px solid #333; }  /* last child */
+li:nth-last-child(odd){ background: #fafafa; }
+
+/* type-aware matching (ignores other sibling types) */
+li:nth-of-type(2){ background: gold; }             /* 2nd <li> among siblings */
+span:nth-of-type(odd){ color: purple; }
+
+/* useful aliases */
+:first-child { margin-top: 0; }
+:last-child { margin-bottom: 0; }
