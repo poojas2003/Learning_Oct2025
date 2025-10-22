@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid yellow;
+    justify-content: flex-start;
+    align-items:stretch;
+}
+
+
+.box{
+    height: 200px;
+    width:200px;
+}
+
+.box1{
+    background-color: blueviolet;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: brown;
+}
