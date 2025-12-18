@@ -1,0 +1,30 @@
+body{
+    display: flex ;
+}
+.box-container{
+    width:400px;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+   width:200px;
+   height:500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.box1{
+    background-color: blue;
+    flex-shrink:1;
+}
+.box2{
+    background-color: red;
+    flex-shrink:1;
+}
+.box3{
+    background-color: blueviolet;
+    flex-shrink:0;
+}
