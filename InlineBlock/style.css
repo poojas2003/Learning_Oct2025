@@ -1,0 +1,18 @@
+.a{
+    display: inline;
+    border:1px solid red;
+}
+.c{
+    display: inline-block;
+    border:1px solid red;
+    height:20px;
+    width:40px;
+    padding:10px;
+}
+.e{
+    display: block;
+    border:1px solid red;
+    height:20px;
+    width:40px;
+    padding:10px;
+}
