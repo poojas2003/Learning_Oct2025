@@ -1,0 +1,28 @@
+p::first-line{
+    color:blueviolet;
+}
+h2::first-letter{
+    color:aqua;
+}
+h2::before{
+    content:"(❁´◡`❁)";
+    font-size: 20px;
+}
+h2::after{
+    content:"(❁´◡`❁)";
+    font-size: 20px;
+    color:red
+}
+ul li::marker{
+    color:blue
+}
+ol li::marker{
+    color:green
+}
+::selection{
+    background-color:yellow;
+    color:red;
+}
+dialog::backdrop {
+            background-color: rgba(0, 128, 0, 0.5); /* Semi-transparent green */
+        }
