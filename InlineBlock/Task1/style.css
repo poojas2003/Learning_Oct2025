@@ -1,0 +1,29 @@
+.box{
+    border:1px solid red;
+    height:120px;
+    width:100px;
+    padding:10px;
+    margin:10px;
+}
+.box1{
+    display: inline;
+    margin-left: 14px;/* works */
+    margin-right: 42px;/* works */
+    /* Inline elements flow within a line of text */
+    margin-bottom: 47px;/* ignored */
+    margin-top: 220px;/* ignored */
+    padding-left: 14px;/* works */
+    padding-right: 42px;/* works */
+    padding-bottom: 47px;/* works */
+    padding-top: 220px;/* works */
+}
+.box2{
+    display: inline-block;
+    /* here margin will apply for both box1 and box2 because box1 is inline with box2 so margin is applied */
+    margin-top: 143px;  
+   
+}
+.box3{
+    display: block;
+    
+}
