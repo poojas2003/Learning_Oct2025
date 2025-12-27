@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h2>Using ::first-line ---it is used for styling the first line of a paragraph</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Molestiae, corporis! Inventore maiores necessitatibus rem, a tenetur sit aspernatur illum quam veritatis, id laborum ullam alias! Velit sunt sed officia neque?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Vitae facilis, hic magnam possimus quae tempore quo aliquam ipsum alias ratione tenetur fuga reiciendis maiores aspernatur accusantium sapiente. Totam, rem quod!</p>
+    <h2>Using ::first-letter ---it is used for styling the first letter of a paragraph</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Molestiae, corporis! Inventore maiores necessitatibus rem, a tenetur sit aspernatur illum quam veritatis, id laborum ullam alias! Velit sunt sed officia neque?
+       </p>
+        <div>
+            <p>Using ::marker it is used for styling the list items </p>
+            <ul>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+            </ul>
+            <ol>
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+            </ol>
+        </div>
+        <h2>Using ::backdrop</h2>
+
+<p>Click the button to show a dialog box:</p>
+
+<button id="dialogBtn">Show dialog</button>
+
+<dialog id="myDialog">
+  <form method="dialog">
+    <p>The background behind this dialog, is a backdrop.</p>
+    <button>Close dialog</button>
+  </form>
+</dialog>
+
+<script>
+const dialogBtn = document.getElementById('dialogBtn');
+const myDialog = document.getElementById('myDialog');
+dialogBtn.addEventListener('click', () => myDialog.showModal());
+</script>
+</body>
+</html>
