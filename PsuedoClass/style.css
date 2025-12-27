@@ -1,0 +1,12 @@
+a:link{
+    color:red;
+}
+a:valid{
+    color:green;
+}
+a:visited{
+    color:blue;
+}
+a:active{
+    color:yellow;
+}
