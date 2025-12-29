@@ -1,0 +1,23 @@
+a[target]{
+    background-color: blueviolet;
+}
+a[target="blank"]{
+    background-color: brown;
+}
+
+a[target|="top"]{
+    color:red;
+    font-size: 50px;
+}
+a[user^="a"]{
+    color:chartreuse;
+}
+a[user$="n"]{
+    color:beige;
+}
+a[password*="s"]{
+    color: darkorange;
+}
+a[login|="top"] {
+    background-color: orange;
+}

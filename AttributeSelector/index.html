@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Using Attribute Selector</h1>
+    <h2>using a[target]</h2>
+    <a href="www.google.com" target="blank">Google</a><br/>
+    <a href="www.amazon.com">Amazon</a><br/>
+     <h2>using a[target="blank"]</h2>
+      <h2>using a[target~="blank"]</h2>
+    <a href="www.filpkart.com" target="_blank">Flipkart</a><br/>
+    <h2>using a[login|="top"]</h2>
+    <a href="www.meshoo.com" login="top">Meshoo</a><br/>
+    <a href="www.ajio.com" login="top-most">Ajo</a><br/>
+    <a href="www.hypen.com" login="topmostbrand">Hypen</a><br/>
+    <h2>using a[user^="app-info"]</h2>
+    <a href="www.nikaa.com" user="app-info">Nikaa</a><br/>
+     <h2>using a[user$="Watermelon"]</h2>
+    <a href="www.newme.com" user="Watermelon">Newme</a><br/>
+    <a href="www.savara.com" user="Watermelon" >Savara</a><br/>
+    <h2>using a[password*="test"]</h2>
+    <a href="www.snitch.com" password="test">Snitch</a><br/>
+</body>
+</html>
